@@ -1,0 +1,105 @@
+site_name: AgriTwin-GH Documentation
+site_description: AgriTwin Greenhouse Digital Twin - Documentation and Feature Demos
+site_author: AgriTwin Team
+site_url: https://arjun-christopher.github.io/AgriTwin-GH/
+repo_url: https://github.com/arjun-christopher/AgriTwin-GH
+repo_name: AgriTwin-GH
+
+docs_dir: docs
+site_dir: site
+
+validation:
+  links:
+    not_found: ignore
+    unrecognized_links: ignore
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: green
+      accent: light-green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: light-green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - awesome-pages  # Auto-discovers markdown files
+
+hooks:
+  - scripts/hooks.py
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      base_path: ['.']
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/arjun-christopher
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Feature Demos:
+    - Guide: FEATURE_DEMOS_GUIDE.md
+  - Data & Database:
+    - Database Reference: DATABASE_REFERENCE.md
+    - PostgreSQL Quick Start: POSTGRESQL_QUICKSTART.md
+    - Image Storage Setup: IMAGE_STORAGE_SETUP.md
+    - Indoor Greenhouse Dataset: INDOOR_GREENHOUSE_DATASET.md
+    - Data Directory: DATA.md
+  - ML Models:
+    - Disease Classification: TOMATO_DISEASE_CLASSIFICATION.md
+    - Disease Progression Model: TOMATO_DISEASE_PROGRESSION_MODEL.md
+    - Disease Progression Synthetic Data: DISEASE_PROGRESSION_SYNTHETIC_DOCUMENTATION.md
+    - Growth Stage Classification: TOMATO_GROWTH_STAGE_CLASSIFICATION.md
+    - Growth Progression Model: TOMATO_GROWTH_PROGRESSION_MODEL.md
+    - Weather Forecast Model: WEATHER_FORECAST_MODEL.md
+  - Control & Simulation:
+    - MPC Complete Guide: MPC_COMPLETE_GUIDE.md
+    - Digital Twin Closed-Loop: DT_LOOP_GUIDE.md
+  - Deployment Guide: DOCS_DEPLOYMENT.md

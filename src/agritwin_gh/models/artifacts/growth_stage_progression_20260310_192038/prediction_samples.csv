@@ -1,0 +1,9 @@
+sample_idx,pred_current_stage,actual_current_stage,pred_next_stage,actual_next_stage,pred_hours_to_next,actual_hours_to_next,pred_trans_prob_24h,actual_trans_24h,pred_trans_prob_48h,actual_trans_48h
+116,seedling,seedling,early_vegetative,early_vegetative,295.46,269.0,0.0,0.0,0.0,0.0
+2587,ripe,ripe,seedling,N/A,270.86,,0.0,,0.0,
+80,seedling,seedling,early_vegetative,early_vegetative,278.62,305.0,0.0,0.0,0.0001,0.0
+1961,unripe,unripe,ripe,ripe,583.48,584.0,0.0,0.0,0.0,0.0
+1853,unripe,unripe,ripe,ripe,522.67,692.0,0.0,0.0,0.0,0.0
+325,seedling,seedling,early_vegetative,early_vegetative,130.76,60.0,0.1911,0.0,0.9891,0.0
+2109,unripe,unripe,ripe,ripe,410.16,436.0,0.0,0.0,0.0,0.0
+1893,unripe,unripe,ripe,ripe,539.92,652.0,0.0,0.0,0.0,0.0

@@ -1,0 +1,12 @@
+── NEXT STAGE (valid rows only) ──
+                      precision    recall  f1-score   support
+
+    early_vegetative       0.89      1.00      0.94       385
+flowering_initiation       0.96      1.00      0.98       624
+           flowering       1.00      0.85      0.92       288
+              unripe       1.00      0.93      0.96       456
+                ripe       1.00      1.00      1.00       792
+
+            accuracy                           0.97      2545
+           macro avg       0.97      0.96      0.96      2545
+        weighted avg       0.97      0.97      0.97      2545

@@ -1,0 +1,40 @@
+{
+  "baseline": {
+    "overall_score": 66.71,
+    "climate_tracking_score": 63.04,
+    "disease_burden_score": 35.04,
+    "stress_exposure_score": 90.44,
+    "resource_stability_score": 97.66,
+    "weights_used": {
+      "climate_tracking": 0.4,
+      "disease_burden": 0.25,
+      "stress_exposure": 0.2,
+      "resource_stability": 0.15
+    },
+    "per_step_summary": {
+      "min": 34.92,
+      "max": 74.24,
+      "mean": 66.71,
+      "std": 7.88
+    }
+  },
+  "mpc_disease": {
+    "overall_score": 66.87,
+    "climate_tracking_score": 64.19,
+    "disease_burden_score": 34.8,
+    "stress_exposure_score": 90.46,
+    "resource_stability_score": 96.03,
+    "weights_used": {
+      "climate_tracking": 0.4,
+      "disease_burden": 0.25,
+      "stress_exposure": 0.2,
+      "resource_stability": 0.15
+    },
+    "per_step_summary": {
+      "min": 34.92,
+      "max": 74.33,
+      "mean": 66.87,
+      "std": 7.65
+    }
+  }
+}

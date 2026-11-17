@@ -1,0 +1,17 @@
+{
+  "current_stage_accuracy": 0.9658886894075404,
+  "next_stage_accuracy": 0.9709233791748526,
+  "hours_mae": 65.83893585205078,
+  "hours_rmse": 84.49861026501412,
+  "hours_mape_pct": 148.92193603515625,
+  "trans_24h_accuracy": 0.9717092337917486,
+  "trans_24h_precision": 0.0,
+  "trans_24h_recall": 0.0,
+  "trans_24h_f1": 0.0,
+  "trans_24h_roc_auc": NaN,
+  "trans_48h_accuracy": 0.8444007858546169,
+  "trans_48h_precision": 0.0,
+  "trans_48h_recall": 0.0,
+  "trans_48h_f1": 0.0,
+  "trans_48h_roc_auc": NaN
+}

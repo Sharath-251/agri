@@ -1,0 +1,68 @@
+# MkDocs and Material Theme
+mkdocs>=1.5.3
+mkdocs-material>=9.5.3
+
+# Plugins
+mkdocs-awesome-pages-plugin>=2.9.2
+mkdocs-minify-plugin>=0.8.0
+
+# Markdown extensions
+pymdown-extensions>=10.7
+
+# Database - PostgreSQL and SQLAlchemy
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9  # PostgreSQL adapter
+python-dotenv>=1.0.0    # Environment variable management
+pyyaml>=6.0            # YAML configuration files
+
+# Object Storage - MinIO
+minio>=7.2.0           # MinIO Python SDK for S3-compatible storage
+
+# Image Processing
+Pillow>=10.0.0         # Image processing library
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+tqdm>=4.65.0           # Progress bars
+tabulate>=0.9.0        # Pretty-print tables
+opencv-python>=4.5.0         # OpenCV for image processing
+opencv-python-headless>=4.5.0  # OpenCV without GUI dependencies
+pyarrow>=10.0.0        # For efficient data serialization
+fastparquet>=0.10.0   # Parquet file handling
+
+# Optional: Kaggle API for dataset management
+kaggle==2.0.0
+
+# Machine learning
+tensorflow>=2.0.0          # TensorFlow (use tensorflow[and-cuda] on Linux for GPU)
+scikit-learn>=1.0.0        # Machine learning library
+torch>=1.0.0               # PyTorch for deep learning
+keras>=2.0.0              # High-level neural networks API
+pytorch-lightning>=1.0.0  # High-level interface for PyTorch
+pytorch-forecasting>=0.10.0    # Time series forecasting with PyTorch
+xgboost>=1.0.0            # Gradient boosting library
+shap>=0.40.0             # SHAP for model interpretability
+tf-keras>=2.0.0             # Keras for TensorFlow
+chronos-forecasting>=0.1.0     # Time series forecasting with TensorFlow
+lightgbm>=3.0.0          # LightGBM for gradient boosting
+neuralforecast>=0.1.0       # Neural forecasting models
+optuna>=3.0.0           # Hyperparameter optimization framework
+statsmodels>=0.13.0      # Statistical modeling and time series analysis
+
+# Visualization
+matplotlib>=3.0.0        # Plotting library
+seaborn>=0.11.0         # Statistical data visualization
+
+# Generative Models
+diffusers>=0.10.0         # Hugging Face Diffusers for generative models
+transformers>=4.30.0      # Required by StableDiffusionPipeline
+accelerate>=0.20.0        # Required for fast model loading with diffusers
+
+# API Development
+pydantic>=2.0.0          # Data validation and settings management
+fastapi>=0.68.0         # FastAPI for building APIs
+uvicorn>=0.15.0         # ASGI server for FastAPI
+uvicorn[standard]>=0.29.0  # Standard dependencies for Uvicorn
+httpx>=0.24.0           # HTTP client for FastAPI TestClient and async requests
+pytest>=7.0.0           # Testing framework
